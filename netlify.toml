@@ -1,0 +1,12 @@
+[build]
+  command = 'hugo --minify --baseURL "${URL:?Netlify site URL is required}"'
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.166.0"
+
+[context.deploy-preview]
+  command = 'hugo --minify --baseURL "${DEPLOY_PRIME_URL:?Netlify preview URL is required}"'
+
+[context.branch-deploy]
+  command = 'hugo --minify --baseURL "${DEPLOY_PRIME_URL:?Netlify branch URL is required}"'
