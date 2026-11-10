@@ -40,4 +40,4 @@ This checkout has no Git metadata, so historical commit conventions cannot be ve
 
 ## Business Configuration
 
-Preserve the client-supplied alcohol policy. Confirm pricing and optional supplies through custom quotes. Configure production `baseURL` and `site.booking_email` before launch. The inquiry form prepares an email draft; it does not submit to a backend. Never commit credentials.
+Preserve the client-supplied alcohol policy and confirm pricing and optional supplies through custom quotes. On Netlify, the inquiry form submits to the `event-inquiry` form. Configure the recipient under Forms > Submission notifications in Netlify. Never commit credentials.

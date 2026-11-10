@@ -25,7 +25,7 @@ Change the text inside quotes; preserve the field names and indentation. Use spa
 
 Save while `hugo server` is running to rebuild the preview. All homepage and service-page text comes from the same YAML sections, so each change applies wherever that section appears.
 
-Set your actual booking address in `site.booking_email`. The inquiry form prepares an email-app draft; it does not send automatically. An empty address leaves delivery unconfigured.
+On Netlify, the inquiry form submits to the `event-inquiry` form. Configure the recipient under Forms > Submission notifications in Netlify.
 
 `hugo.toml` contains technical build settings and the production `baseURL`. The small files under `content/` declare Hugo routes; leave them alone for ordinary copy changes. Layouts, styles, images, and JavaScript remain in their respective project folders.
 
