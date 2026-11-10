@@ -1,0 +1,6 @@
+{{ define "main" }}
+<div class="wrap page-heading"><p><a href="{{ "" | relURL }}">{{ hugo.Data.content.shared.home_label }}</a> / {{ partial "page-title.html" . }}</p><h1>{{ partial "page-title.html" . }}</h1></div>
+{{ partial (printf "%s.html" .Params.sectionKey) . }}
+{{ if .Content }}<div class="wrap page-copy">{{ .Content }}</div>{{ end }}
+{{ if ne .Params.sectionKey "contact" }}<section class="banner"><div class="wrap"><h2>{{ hugo.Data.content.shared.closing_heading }}</h2><a class="btn" href="{{ "contact/" | relURL }}">{{ hugo.Data.content.shared.quote_button }}</a></div></section>{{ end }}
+{{ end }}

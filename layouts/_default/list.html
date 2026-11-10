@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="wrap section"><h1>{{ partial "page-title.html" . }}</h1>{{ .Content }}{{ range .Pages }}<article><h2><a href="{{ .RelPermalink }}">{{ partial "page-title.html" . }}</a></h2>{{ .Summary }}</article>{{ end }}</section>{{ end }}

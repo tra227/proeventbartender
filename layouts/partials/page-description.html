@@ -1,0 +1,4 @@
+{{- $description := .Description | default hugo.Data.content.site.description -}}
+{{- with .File -}}{{- with index hugo.Data.content.pages .ContentBaseName -}}{{- $description = .description -}}{{- end -}}{{- end -}}
+{{- with .Params.serviceKey -}}{{- with index (where hugo.Data.service_pages.items "slug" .) 0 -}}{{- $description = .description -}}{{- end -}}{{- end -}}
+{{- return $description -}}

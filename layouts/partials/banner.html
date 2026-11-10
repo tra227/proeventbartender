@@ -1,0 +1,1 @@
+<section class="banner"><div class="wrap"><div><span class="eyebrow">{{ index hugo.Data.content "banner" "eyebrow" }}</span><h2>{{ index hugo.Data.content "banner" "heading" }}</h2></div><a class="btn" href='{{ if .IsHome }}#contact{{ else }}{{ "contact/" | relURL }}{{ end }}'>{{ index hugo.Data.content "banner" "button" }}</a></div></section>

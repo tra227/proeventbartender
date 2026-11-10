@@ -1,0 +1,2 @@
+Website copy is now maintained in data/content.yaml using descriptive field names.
+See CONTENT-GUIDE.md for editing instructions.

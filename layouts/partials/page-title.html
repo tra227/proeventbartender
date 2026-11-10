@@ -1,0 +1,4 @@
+{{- $title := .Title -}}
+{{- with .File -}}{{- with index hugo.Data.content.pages .ContentBaseName -}}{{- $title = .title -}}{{- end -}}{{- end -}}
+{{- with .Params.serviceKey -}}{{- with index (where hugo.Data.service_pages.items "slug" .) 0 -}}{{- $title = .title -}}{{- end -}}{{- end -}}
+{{- return $title -}}

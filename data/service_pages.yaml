@@ -1,0 +1,480 @@
+# Adapted from the local Mixmaster Gig project for Pro Event Bartenders.
+# Edit service copy here; routes are declared under content/services/.
+---
+items:
+- title: Bachelorette Party Bartending
+  description: Custom cocktail service for bachelorette parties in South Florida. Themed menus, styled bar setups, and unforgettable drinks for the bride and crew.
+  icon: "\U0001F942"
+  eyebrow: Bachelorette Parties
+  tagline: Make Her Last Night Legendary
+  lead: From rooftop soirées to poolside sips — we bring the bar, the flair, and the fun so the bride squad can focus on what matters.
+  weight: 10
+  cta_label: Book This Experience
+  highlights:
+  - icon: "\U0001F379"
+    title: Custom "Bride to Be" Cocktail Menu
+    body: A personalized drink menu built around her favorites — think signature named cocktails, bachelorette-themed drinks, and crowd-pleasers for every palate.
+  - icon: "✨"
+    title: Styled Bar Setup
+    body: On-theme decorations, garnish displays, and a beautiful bar presentation that photographs as good as it tastes.
+  - icon: "\U0001F380"
+    title: Zero Stress Coordination
+    body: We coordinate bar planning, setup, and breakdown. You purchase and supply the alcohol. You focus on the bride — we'll keep the drinks flowing all night.
+  - icon: "\U0001F37E"
+    title: Brunch, Day-Party & Night Options
+    body: Mimosa bars, spritz stations, or full cocktail service — we customize to your schedule and venue.
+  - icon: "\U0001F338"
+    title: Non-Alcoholic Mocktail Options
+    body: Beautiful, complex mocktails for any guests not drinking — everyone gets to feel part of the celebration.
+  - icon: "\U0001F4CB"
+    title: Personalized Menu Cards
+    body: Printed or digital custom menu cards included with select packages — a keepsake the bride will love.
+  process:
+  - Quick consultation call to discuss the bride's style, guest count, and vision
+  - Custom cocktail menu designed around her preferences and party theme
+  - We confirm your supply checklist and bar setup; you purchase and supply the alcohol
+  - On-site service from start to finish — including teardown and cleanup
+  slug: bachelorette-party
+  name: Bachelorette Parties
+  summary: Themed cocktail menus, styled bar setups, and zero-stress coordination for the bride and her crew.
+- title: Bridal Shower Bartending
+  description: Elegant brunch and cocktail service for bridal showers in South Florida. Mimosa bars, afternoon spritz stations, and beautiful non-alcoholic options.
+  icon: "\U0001F490"
+  eyebrow: Bridal Showers
+  tagline: Graceful, Gorgeous, and Full of Bubbles
+  lead: Refined daytime cocktail service for the bride's last hurrah with her closest circle. Mimosas, spritzes, signature mocktails — elegant presentation that photographs beautifully.
+  weight: 22
+  cta_label: Book Bridal Shower Service
+  highlights:
+  - icon: "\U0001F34A"
+    title: Mimosa & Bubbly Bar
+    body: Elegant mimosa station with multiple juice options, prosecco, and champagne — guests build their own or enjoy full pour service.
+  - icon: "\U0001F338"
+    title: Floral Garnish Presentation
+    body: Edible flowers, herb garnishes, and styled bar setups that look like they belong on a styled shoot — perfect for photos and content.
+  - icon: "\U0001F34B"
+    title: Afternoon Spritz & Rosé Menu
+    body: Aperol spritz, Hugo spritz, frosé, and light afternoon cocktails built for daytime elegance and long celebrations.
+  - icon: "\U0001F490"
+    title: Beautiful Mocktail Options
+    body: Non-alcoholic drinks designed to look and taste just as special — for guests who aren't drinking or guests who are pregnant.
+  - icon: "\U0001F48C"
+    title: Custom Menu Cards
+    body: Printed or digital drink menus personalized with the bride's name and wedding date — a thoughtful keepsake included with select packages.
+  - icon: "\U0001F90D"
+    title: Venue & Planner Coordination
+    body: We work with your shower venue, event planner, or host to ensure timing and logistics are seamless from start to finish.
+  process:
+  - Consultation to understand the bride's aesthetic, guest count, and venue
+  - Custom menu designed around her tastes — light, elegant, and Instagram-worthy
+  - Styled bar setup with floral garnishes and personalized menu cards
+  - Full service through the event with graceful teardown at the end
+  slug: bridal-shower
+  name: Bridal Showers
+  summary: Elegant mimosa bars, afternoon spritzes, and floral garnish setups for the bride's most important daytime celebration.
+- title: Bachelor Party Bartending
+  description: Professional bartending for bachelor parties in South Florida. Craft cocktails, beer menus, and full bar service for the groom's last night out.
+  icon: "\U0001F37A"
+  eyebrow: Bachelor Parties
+  tagline: Send Him Out in Style
+  lead: Craft cocktails, cold beers, and a bar setup that keeps the energy going all night. The groom's crew deserves a great bartender — attentive service.
+  weight: 15
+  cta_label: Book Bachelor Bar Service
+  highlights:
+  - icon: "\U0001F943"
+    title: Whiskey & Spirits Forward Menu
+    body: Curated cocktail menu built for the guys — whiskey sours, old fashioneds, mezcal margs, and whatever the groom drinks.
+  - icon: "\U0001F37A"
+    title: Beer & Shot Service
+    body: We handle the beer selection, shot setups, and bar games coordination so the party never slows down.
+  - icon: "\U0001F3AF"
+    title: Indoor & Outdoor Setups
+    body: Airbnbs, rooftops, backyards, private venues — we set up wherever the party is happening.
+  - icon: "\U0001F525"
+    title: High-Energy Service
+    body: Fast, efficient bartending built for a rowdy crew. We keep the drinks coming so nobody's waiting around.
+  - icon: "\U0001F389"
+    title: Custom Groom's Cocktail
+    body: A signature drink named for the groom — the crew will be ordering it all night.
+  - icon: "\U0001F697"
+    title: Coordination with Party Bus / Venue
+    body: We coordinate around your crew's itinerary — whether you're at one spot all night or need pre-game service before hitting the town.
+  process:
+  - Quick call to find out what the groom drinks and what the crew expects
+  - Menu built around their tastes — craft cocktails, shots, and beers
+  - Full setup at your venue — no stress on the best man
+  - Service from first drink through last call, then full breakdown
+  slug: bachelor-party
+  name: Bachelor Parties
+  summary: Craft cocktails, cold beers, and high-energy bartending for the groom's last night — built for a rowdy crew.
+- title: Yacht & Boat Party Bartending
+  description: Premium mobile bartending for yacht parties and boat charters across South Florida. Compact bar setups, marine-safe service, and signature cocktails on the water.
+  icon: "⛵"
+  eyebrow: Yacht & Boat Parties
+  tagline: Cocktails on the Open Water
+  lead: Luxury bar service designed for the water — compact, efficient setups that don't sacrifice quality. Every sunset tastes better with a signature cocktail in hand.
+  weight: 20
+  cta_label: Book Yacht Bar Service
+  highlights:
+  - icon: "\U0001F378"
+    title: Marine-Ready Bar Setup
+    body: Compact, secure bar setups built for boat environments — planned with your captain around available space and vessel requirements.
+  - icon: "\U0001F30A"
+    title: Signature Nautical Cocktail Menu
+    body: Themed menus inspired by the sea — think tropical spirits, citrus-forward sips, and refreshing coolers perfect for sun and salt air.
+  - icon: "\U0001F9CA"
+    title: Ice & Cooler Management
+    body: We handle the ice logistics so your boat stays stocked and cold from departure to dock.
+  - icon: "\U0001F459"
+    title: Day Charters & Sunset Cruises
+    body: Whether it's a 3-hour day charter or an all-day sunset cruise, we'll match service style to your itinerary.
+  - icon: "\U0001F389"
+    title: Bachelorette, Birthday & VIP Charters
+    body: Private celebrations on the water get elevated treatment — themed menus, garnish displays, and photo-ready setups.
+  - icon: "\U0001F37E"
+    title: Champagne & Sparkling Service
+    body: Perfect for milestone moments — popping bottles at sea is better with a pro behind the bar.
+  process:
+  - Share your charter details — vessel size, guest count, departure time, and route
+  - Custom cocktail menu selected for the setting and season
+  - We coordinate with the captain/charter company on logistics and space
+  - On-board service from departure through docking — setup, service, and breakdown
+  slug: yacht-party
+  name: Yacht & Boat Parties
+  summary: Marine-ready bar service for charters and cruises — tropical menus, ice management, and on-water logistics handled.
+- title: Pool Party Bartending
+  description: Professional pool party bar service in South Florida. Frozen drinks, tropical cocktails, and full mobile bar setup for private and rental venues.
+  icon: "\U0001F3D6️"
+  eyebrow: Pool Parties
+  tagline: Poolside Bar Service Done Right
+  lead: Frozen cocktails, tropical sips, and a bar setup that belongs in a resort — all at your private pool party. We bring the vibe, you enjoy the water.
+  weight: 30
+  cta_label: Book Pool Party Service
+  highlights:
+  - icon: "\U0001F379"
+    title: Frozen Cocktail Menu
+    body: Frosé, frozen margaritas, piña coladas, and more — blended drinks built for the heat and crowd-tested for maximum fun.
+  - icon: "\U0001F33A"
+    title: Tropical Cocktail Selection
+    body: Full cocktail menu with a tropical twist — rum punches, spritz options, crushes, and non-alcoholic agua frescas.
+  - icon: "\U0001F31E"
+    title: Heat & Outdoor Optimized Setup
+    body: Bar setup designed for outdoor sun — covered garnish stations, insulated coolers, and high-speed service to keep the line moving.
+  - icon: "\U0001F465"
+    title: Staffing for Your Guest Count
+    body: Intimate backyard pool parties or large venue rentals — we staff appropriately to support a smooth service flow.
+  - icon: "\U0001F3B5"
+    title: Day Party & Evening Options
+    body: Daytime pool parties, sunset happy hours, or evening cookouts — we work around your schedule and flow.
+  - icon: "\U0001F9F4"
+    title: Non-Alcoholic Bar Menu
+    body: Agua frescas, coconut coolers, and mocktail sips that keep everyone hydrated and part of the fun.
+  process:
+  - Tell us about your pool setup, guest count, and vibe
+  - We design a cocktail and mocktail menu built for outdoor summer drinking
+  - Full setup including coolers, bar station, and garnish display
+  - Service through the party — we handle refills, ice, and teardown
+  slug: pool-party
+  name: Pool Parties
+  summary: Frozen cocktails, tropical sips, and a poolside bar setup that belongs at a resort — all at your private event.
+- title: Brunch & Mimosa Bar Service
+  description: Professional brunch bartending and mimosa bar setup in South Florida. Custom mimosa stations, Bloody Mary bars, and daytime cocktail service.
+  icon: "\U0001F942"
+  eyebrow: Brunch & Mimosa Bars
+  tagline: Bottomless Vibes, Zero Chaos
+  lead: A fully stocked mimosa bar or a complete brunch cocktail menu — elevated daytime drinking done right. Perfect for bridal showers, birthdays, baby showers, and weekend parties.
+  weight: 25
+  cta_label: Book Brunch Bar Service
+  highlights:
+  - icon: "\U0001F34A"
+    title: Custom Mimosa Bar Station
+    body: Multiple juice options — classic OJ, grapefruit, peach, mango, cranberry — plus sparkling wine and prosecco. Guests build their own or we pour for them.
+  - icon: "\U0001F345"
+    title: Bloody Mary Bar
+    body: Full build-your-own Bloody Mary station with house mix, premium vodka, and a garnish bar loaded with pickles, celery, olives, hot sauce, and more.
+  - icon: "☕"
+    title: Espresso Martini & Brunch Cocktails
+    body: Beyond the basics — espresso martinis, aperol spritz, peach bellinis, spiked lemonades, and brunch-forward cocktails guests will rave about.
+  - icon: "\U0001F338"
+    title: Non-Alcoholic Brunch Options
+    body: Virgin mimosas, sparkling mocktails, fresh-squeezed juices, and agua frescas so everyone has a beautiful drink in hand.
+  - icon: "✨"
+    title: Styled Station Presentation
+    body: Beautiful bar setups with flower garnishes, labeled bottles, and a presentation that looks as good as it tastes — great for photos.
+  - icon: "⏰"
+    title: Flexible Service Hours
+    body: Morning brunches, afternoon soirées, or all-day events — we confirm service hours around your event schedule.
+  process:
+  - Tell us your vibe — DIY mimosa station, full service, or both
+  - Custom menu built for daytime drinking — bubbles, Bloody Marys, and coffee cocktails
+  - Styled station setup with garnishes, labels, and full supply management
+  - Service through brunch — we refill, restock, and clean up when it's done
+  slug: brunch-mimosa-bar
+  name: Brunch & Mimosa Bars
+  summary: Custom mimosa stations, Bloody Mary bars, and daytime cocktail service — bottomless vibes with zero chaos.
+- title: Birthday Party Bartending
+  description: Professional bartending for birthday parties of all sizes in South Florida. Custom menus, themed cocktails, and full mobile bar service.
+  icon: "\U0001F382"
+  eyebrow: Birthday Parties
+  tagline: Your Birthday, Your Cocktail Menu
+  lead: Whether it's a milestone 30th, an intimate dinner party, or a full blowout — custom cocktails turn a great birthday into an unforgettable one.
+  weight: 40
+  cta_label: Book Birthday Bar Service
+  highlights:
+  - icon: "\U0001F389"
+    title: Custom Birthday Cocktail Menu
+    body: A signature drink named after the guest of honor — plus a full menu built around their favorites and party theme.
+  - icon: "\U0001F37E"
+    title: Champagne Toast Service
+    body: Coordinated champagne or sparkling toasts for the big moment — timed perfectly and poured beautifully.
+  - icon: "\U0001F3A8"
+    title: Themed Bar Presentation
+    body: Color-coordinated garnishes, custom menu cards, and a bar setup that matches the party aesthetic.
+  - icon: "\U0001F465"
+    title: Any Size, Any Vibe
+    body: Intimate dinner parties of 15 or backyard bashes of 100+. We scale service and staffing to fit the guest count.
+  - icon: "\U0001F379"
+    title: Full Cocktail & Mocktail Menu
+    body: Something for everyone — from craft cocktails to virgin mocktails so no guest is left out of the fun.
+  - icon: "✅"
+    title: Setup to Cleanup
+    body: We handle all bar setup, service, and breakdown so the birthday host can actually enjoy the party.
+  process:
+  - Quick call to learn about the birthday person, party theme, and guest count
+  - Custom cocktail menu designed around their tastes and the occasion
+  - Full setup — bar station, ice, garnishes, and supplies
+  - On-site service from welcome drinks through last call, then teardown
+  slug: birthday-party
+  name: Birthday Parties
+  summary: Custom menus, signature drinks named after the guest of honor, and a bar setup that matches the party vibe.
+- title: Graduation Party Bartending
+  description: Professional bar service for graduation parties in South Florida. Custom cocktails, celebratory setups, and service that matches the milestone.
+  icon: "\U0001F393"
+  eyebrow: Graduation Parties
+  tagline: Celebrate the Achievement Right
+  lead: High school, college, grad school, or trade certification — every milestone deserves a real celebration with a real bartender. We make the party match the achievement.
+  weight: 45
+  cta_label: Book Graduation Bar Service
+  highlights:
+  - icon: "\U0001F393"
+    title: Graduate's Signature Cocktail
+    body: A custom drink named after the graduate — their school colors, their favorite spirit, their moment.
+  - icon: "\U0001F942"
+    title: Champagne Toast Service
+    body: Perfectly timed celebratory toast for the graduate — bubbles for the milestone moment.
+  - icon: "\U0001F468‍\U0001F469‍\U0001F467"
+    title: Multi-Generational Guest Mix
+    body: We design menus with all ages in mind — craft cocktails for adults, mocktails and specialty sodas for younger guests.
+  - icon: "\U0001F389"
+    title: Backyard & Home-Friendly Setup
+    body: Most graduation parties happen at home — we're built for backyard and patio setups with full supply and cooler management.
+  - icon: "\U0001F31E"
+    title: Day Party & Evening Options
+    body: Afternoon cookouts through evening dinners — we adapt service style to your event schedule and flow.
+  - icon: "\U0001F379"
+    title: Full Mocktail Menu
+    body: Non-alcoholic drinks that feel just as special — agua frescas, sparkling mocktails, and lemonade variations for every guest.
+  process:
+  - Quick chat about the graduate, their style, and the party guest mix
+  - Custom menu with a signature cocktail and inclusive non-alcoholic options
+  - Full setup at home, backyard, or venue — we handle everything
+  - Service through the celebration and teardown when the party wraps
+  slug: graduation-party
+  name: Graduation Parties
+  summary: Celebratory bar service for every milestone — custom graduate cocktail, champagne toasts, and inclusive menus for mixed-age crowds.
+- title: Holiday Party Bartending
+  description: Seasonal cocktail service for holiday parties in South Florida. Christmas, New Year's Eve, Thanksgiving, Halloween, and more — custom menus for every occasion.
+  icon: "\U0001F384"
+  eyebrow: Holiday Parties
+  tagline: Cheers to the Season
+  lead: Seasonal cocktail menus, festive bar setups, and professional service that makes your holiday gathering feel like a real event — not just another house party.
+  weight: 35
+  cta_label: Book Holiday Bar Service
+  highlights:
+  - icon: "\U0001F942"
+    title: New Year's Eve Countdown Service
+    body: Midnight champagne toasts, party-paced bartending, and a bar built to handle the NYE rush without skipping a beat.
+  - icon: "\U0001F384"
+    title: Seasonal Cocktail Menus
+    body: Holiday-themed drinks for every occasion — cranberry spritz for Christmas, pumpkin spice martinis for Halloween, eggnog cocktails, hot toddies, and more.
+  - icon: "\U0001F983"
+    title: Thanksgiving & Friendsgiving
+    body: Apple cider cocktails, spiced wines, and warm seasonal drinks perfect for a harvest gathering — alcoholic and non-alcoholic.
+  - icon: "\U0001F383"
+    title: Halloween & Themed Parties
+    body: Dramatic, Instagram-worthy cocktails for costume parties — colorful presentations, themed garnishes, and cocktail names that match your aesthetic.
+  - icon: "\U0001F38A"
+    title: Office & Company Holiday Parties
+    body: Professional holiday service for corporate gatherings — inclusive menu with mocktail options and branded seasonal presentations.
+  - icon: "\U0001F381"
+    title: Festive Bar Presentation
+    body: Seasonal garnishes, holiday-themed menu cards, and decor-friendly bar setups that complement your holiday aesthetic.
+  process:
+  - Share your holiday, theme, and guest count so we can build the right menu
+  - Seasonal cocktail menu designed around your gathering and occasion
+  - Full bar setup with festive presentation and seasonal garnishes
+  - On-site service through the celebration, including midnight toast if needed
+  slug: holiday-party
+  name: Holiday Parties
+  summary: Seasonal cocktail menus for Christmas, New Year's Eve, Halloween, Thanksgiving, and every celebration in between.
+- title: Wedding & Reception Bartending
+  description: Elegant wedding bar service for ceremonies and receptions in South Florida. Custom his/hers/theirs cocktails, multi-station setups, and seamless coordination.
+  icon: "\U0001F48D"
+  eyebrow: Weddings & Receptions
+  tagline: Elegance, Perfectly Poured
+  lead: From cocktail hour to last dance — seamless bar service that reflects your love story. Custom menus, coordinated logistics, and professional team ready for your big day.
+  weight: 50
+  cta_label: Inquire About Wedding Service
+  highlights:
+  - icon: "\U0001F491"
+    title: His / Hers / Theirs Signature Cocktails
+    body: Personalized signature drinks for the couple — a beloved wedding tradition that makes the menu uniquely yours.
+  - icon: "\U0001F3DB️"
+    title: Multi-Station Bar Setups
+    body: Cocktail hour stations, reception bars, and champagne toast service — all coordinated to support a smooth guest experience.
+  - icon: "\U0001F91D"
+    title: Venue & Planner Coordination
+    body: We work directly with your venue and wedding planner to ensure timing, logistics, and service are seamless.
+  - icon: "\U0001F454"
+    title: Professional Staff & Uniforms
+    body: Well-dressed, experienced bar staff who understand the formality and flow of weddings and receptions.
+  - icon: "\U0001F37E"
+    title: Champagne Toast Management
+    body: Perfectly timed champagne pours for the toasts — every guest gets a glass at the right moment.
+  - icon: "\U0001F379"
+    title: Full Non-Alcoholic Program
+    body: Elegant mocktails, specialty sodas, and non-alcoholic options that feel as considered as the cocktail menu.
+  process:
+  - Initial consultation to understand your vision, guest count, and venue requirements
+  - Custom bar menu designed around your theme, colors, and flavor preferences
+  - Venue walkthrough and coordination with planner or day-of coordinator
+  - Professional setup, service through reception, and complete teardown
+  slug: wedding
+  name: Weddings & Receptions
+  summary: Elegant service with custom His/Hers/Theirs cocktails, multi-station setups, and seamless planner coordination.
+- title: Corporate Event Bartending
+  description: Professional bartending for corporate events, brand launches, office parties, and VIP nights in South Florida. Branded menus, polished service, and speed.
+  icon: "\U0001F3E2"
+  eyebrow: Corporate & Brand Events
+  tagline: Brand-Level Bar Service
+  lead: Polished, professional, and on-brand. Whether it's a product launch, office holiday party, or VIP client night — we deliver speed, consistency, and impeccable presentation.
+  weight: 60
+  cta_label: Book Corporate Bar Service
+  highlights:
+  - icon: "\U0001F3A8"
+    title: Branded Cocktail Menus
+    body: Custom-designed menus and signature cocktails that align with your brand palette, product, or event theme.
+  - icon: "⚡"
+    title: High-Volume Speed & Consistency
+    body: Built for busy events — fast service that doesn't sacrifice quality or presentation even at peak hours.
+  - icon: "\U0001F375"
+    title: Low-ABV & Non-Alcoholic Options
+    body: Inclusive menus with mocktails, specialty sodas, and low-ABV options so all guests feel accommodated.
+  - icon: "\U0001F454"
+    title: Professional Appearance & Conduct
+    body: Corporate-ready bar staff — polished uniforms, professional demeanor, and experience with high-profile clients.
+  - icon: "\U0001F4CB"
+    title: Scalable Staffing
+    body: From small team happy hours to large-scale brand launches — we staff and scale to your guest count and floor plan.
+  - icon: "\U0001F3E2"
+    title: Venue & Logistics Coordination
+    body: We coordinate with your event planner, venue management, and AV team to ensure seamless integration.
+  process:
+  - Discovery call to understand your brand, event goals, and guest profile
+  - Custom cocktail and mocktail menu aligned with your brand and event theme
+  - Pre-event coordination with your events team, venue, and other vendors
+  - Professional setup, on-site service, and complete breakdown after the event
+  slug: corporate-events
+  name: Corporate & Brand Events
+  summary: On-brand cocktails, low-ABV options, and polished professional service for launches, office events, and VIP nights.
+- title: Brand Activations & Pop-Up Bar Events
+  description: Mobile bartending for brand activations, pop-up events, and experiential marketing in South Florida. Custom branded cocktails, high-traffic service, and flawless presentation.
+  icon: "\U0001F680"
+  eyebrow: Brand Activations & Pop-Ups
+  tagline: Your Brand, Poured Perfectly
+  lead: Turn a brand moment into a bar experience. Custom cocktails, branded presentation, and professional service that makes your activation the talk of the room — and the feed.
+  weight: 65
+  cta_label: Book Brand Activation Service
+  highlights:
+  - icon: "\U0001F3A8"
+    title: Branded Cocktail Development
+    body: Signature drinks built around your product, campaign, or brand identity — color-matched, flavor-forward, and built for social sharing.
+  - icon: "\U0001F4F8"
+    title: Photogenic Bar Setup
+    body: Styled, branded bar presentations designed for content creation — signage, garnish displays, and setups that look as good on camera as they do in person.
+  - icon: "⚡"
+    title: High-Traffic Event Pacing
+    body: Built for volume — fast, consistent service at activations where guests cycle through quickly and first impressions matter.
+  - icon: "\U0001F6E0️"
+    title: Custom Build-Your-Own Experiences
+    body: Interactive cocktail stations, tasting flights, and DIY garnish bars that drive engagement and dwell time at your activation.
+  - icon: "\U0001F91D"
+    title: Agency & Event Producer Friendly
+    body: We work directly with your event producer, experiential agency, or brand team — streamlined communication and no surprises on site.
+  - icon: "\U0001F375"
+    title: Zero-Proof & Functional Drink Options
+    body: Non-alcoholic mocktails, botanical sodas, and wellness-forward drink options for health-conscious brands and all-ages activations.
+  process:
+  - Discovery call with your brand team or agency to understand goals, audience, and aesthetic
+  - Custom cocktail development with sampling and approval before the event
+  - Coordination with venue, production, and any other vendors on site
+  - Professional setup, full-service execution, and branded teardown at event close
+  slug: brand-activation
+  name: Brand Activations & Pop-Ups
+  summary: Custom branded cocktails, photogenic setups, and high-traffic service for experiential marketing and pop-up events.
+- title: Wine Tasting Events
+  description: Private wine tasting events across South Florida, with thoughtful wine selection planning, food pairing ideas and polished service for celebrations and corporate gatherings.
+  eyebrow: Wine Tasting Events
+  tagline: Sip, Savor, Discover Together
+  lead: Bring your guests together over a thoughtfully planned wine experience. From intimate evenings at home to client receptions and milestone celebrations, we help shape a tasting that feels welcoming, personal and beautifully presented.
+  weight: 70
+  cta_label: Plan Your Wine Tasting
+  highlights:
+  - title: A Tasting Tailored to Your Guests
+    body: Build your event around a favorite region, grape variety or seasonal theme. We'll discuss guest preferences and help you plan a selection for you to purchase before the event.
+  - title: Private Celebrations
+    body: Make a birthday, bridal shower or anniversary feel special with attentive wine service and a relaxed tasting format that leaves time for conversation.
+  - title: Corporate Wine Experiences
+    body: Welcome clients, celebrate your team or host a networking reception with polished presentation and service timed around your event agenda.
+  - title: Wine & Food Pairing Ideas
+    body: Explore pairing ideas for cheese boards, small bites or a catered menu. We coordinate the wine service with your host or caterer; food arrangements are confirmed separately.
+  - title: Thoughtful Tasting Presentation
+    body: Discuss tasting stations, personalized wine lists and glassware needs. Your proposal confirms the presentation, equipment and supplies suited to your venue and guest count.
+  - title: Non-Alcoholic Options
+    body: Include guests who aren't drinking with sparkling mocktails, botanical drinks or alcohol-free wine options selected during planning. Every guest can take part in the occasion.
+  process:
+  - Share your event date, venue, guest count and the kind of wine experience you have in mind.
+  - Discuss your tasting theme, wine preferences, food pairings and non-alcoholic options.
+  - Confirm staffing, glassware, supplies and timing in your quote; you purchase and supply all wine and other alcohol.
+  - Enjoy attentive service, coordinated pours and bar-area breakdown after the tasting.
+  slug: wine-tasting
+  name: Wine Tasting Events
+  summary: Private and corporate wine experiences with tasting themes, food pairing ideas, thoughtful presentation and inclusive non-alcoholic options.
+- title: Private Mixology & Event Bartending Lessons
+  description: Hands-on private mixology and event bartending lessons in South Florida. Learn cocktail technique, practice event service and ask about certification options.
+  eyebrow: Private Bartending Lessons
+  tagline: Learn Cocktail Technique and Practice Event Service
+  lead: Learn to make balanced cocktails and run an organized event bar. Private instruction gives you time to practice, ask questions, and get feedback at your own pace.
+  cta_label: Inquire About Lessons & Certification
+  highlights_intro: Choose the skills you want to practice in a one-on-one or small-group lesson.
+  planning_heading: Plan your private lesson
+  quote_intro: Share your experience level, preferred dates, location, and group size. Tell us what you want to learn and whether you need a specific credential.
+  highlights:
+  - title: Cocktail Fundamentals
+    body: Practice measuring, shaking, stirring, and straining. Learn how sweetness, acidity, and dilution affect a drink.
+  - title: Classic Cocktails & Mocktails
+    body: Learn the recipes behind classic drinks, then use the same techniques to build your own cocktails and alcohol-free options.
+  - title: Event Bar Setup
+    body: Set up a working station, organize tools and garnishes, and prepare an inventory checklist for your guest count.
+  - title: Service Practice
+    body: Work through a mock event. Practice taking orders, serving multiple guests, and resetting your station between rounds.
+  - title: How to Get Certified
+    body: Tell us which credential you need or where you plan to work. We can help you identify a training path and what to confirm before booking, including the issuer, any required exam, and whether your employer or venue accepts the credential.
+  process:
+  - Tell us what you want to learn and what experience you already have.
+  - Choose a lesson focus and confirm the schedule, location, and supplies.
+  - Practice hands-on techniques and get feedback as you work through each drink.
+  - Discuss next steps and confirm any certification requirements that apply to your goals.
+  slug: private-bartending-lessons
+  name: Private Mixology & Bartending Lessons
+  summary: Hands-on cocktail training and event bar practice, with guidance on certification options.

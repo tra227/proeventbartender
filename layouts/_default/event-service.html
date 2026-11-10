@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $service := index (where hugo.Data.service_pages.items "slug" .Params.serviceKey) 0 }}
+<article>
+  <div class="wrap page-heading">
+    <nav aria-label="Breadcrumb"><a href="{{ "" | relURL }}">{{ hugo.Data.content.shared.home_label }}</a> / <a href="{{ "services/" | relURL }}">{{ hugo.Data.content.pages.services.title }}</a> / {{ $service.eyebrow }}</nav>
+    <p class="eyebrow">{{ $service.eyebrow }}</p>
+    <h1>{{ $service.title }}</h1>
+    <p class="service-tagline">{{ $service.tagline }}</p>
+    <p class="intro">{{ $service.lead }}</p>
+    <p class="service-area-line">{{ hugo.Data.content.site.service_area }}</p>
+    <div class="actions"><a class="btn" href="{{ "contact/" | relURL }}">{{ $service.cta_label }}</a></div>
+  </div>
+  <section class="section"><div class="wrap">
+    <h2>Make the experience your own</h2>
+    <p class="intro">{{ $service.highlights_intro | default "Discuss these options with us. Your custom quote confirms staffing, equipment, supplies, presentation and service hours." }}</p>
+    <div class="services">{{ range $service.highlights }}<section class="service"><h3>{{ .title }}</h3><p>{{ .body }}</p></section>{{ end }}</div>
+  </div></section>
+  <section class="section about"><div class="wrap about-grid">
+    <div><span class="eyebrow">From first conversation to final pour</span><h2>{{ $service.planning_heading | default "Planning your event" }}</h2><ol class="service-process">{{ range $service.process }}<li>{{ . }}</li>{{ end }}</ol></div>
+    <div><h2>A quote tailored to you</h2><p>{{ $service.quote_intro | default "Share your event date, location, guest count and preferred service hours. We'll discuss your menu, bar setup and staffing needs to prepare a custom proposal." }}</p><div class="alcohol-notice"><h3>{{ index hugo.Data.content "mobile-bar" "alcohol_heading" }}</h3><p><strong>{{ index hugo.Data.content "mobile-bar" "alcohol_emphasis" }}</strong> {{ index hugo.Data.content "mobile-bar" "alcohol_description" }}</p></div><p>{{ index hugo.Data.content "mobile-bar" "note" }}</p><a class="btn" href="{{ "contact/" | relURL }}">{{ $service.cta_label }}</a></div>
+  </div></section>
+  <section class="section"><div class="wrap"><h2>Explore more services</h2><div class="service-related">{{ range hugo.Data.service_pages.items }}{{ if ne .slug $service.slug }}<a href="{{ printf "services/%s/" .slug | relURL }}">{{ .name }}</a>{{ end }}{{ end }}</div></div></section>
+</article>
+{{ end }}
